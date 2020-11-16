@@ -1,0 +1,35 @@
+#card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+#card img {
+  display: flex;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+
+  z-index: 1;
+}
+
+#card .title {
+  font-size: 35px;
+  color: #ffff;
+  letter-spacing: 2px;
+  font-weight: 600;
+  z-index: 2;
+  text-transform: lowercase;
+}
+
+#card .description {
+  font-size: 16px;
+  color: #ffff;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  z-index: 2;
+}
