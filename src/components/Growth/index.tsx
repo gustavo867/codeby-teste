@@ -6,7 +6,7 @@ import "./styles.css";
 const Growth: React.FC = () => {
   return (
     <div id="growth-container">
-      <h1>growth plans</h1>
+      <h1 className="absolute">growth plans</h1>
       <p>take your business to the next level</p>
       <div className="bottom">
         <Graph
